@@ -22,9 +22,21 @@ terraform {
       source  = "hashicorp/google"
       version = "<5.0,>= 2.12"
     }
+    google-beta = {
+      source  = "hashicorp/google-beta"
+      version = "<5.0,>= 2.12"
+    }
+    random = {
+      source  = "hashicorp/random"
+      version = "~> 3.4"
+    }
+    null = {
+      source  = "hashicorp/null"
+      version = "~> 3.2"
+    }
   }
 
   provider_meta "google" {
-    module_name = "blueprints/terraform/terraform-google-network:network-peering/v5.1.0"
+    module_name = "blueprints/terraform/terraform-google-network:network-peering/v6.0.1"
   }
 }

@@ -25,7 +25,7 @@ resource "google_project_service" "compute" {
 # Create the network
 module "vpc" {
   source  = "terraform-google-modules/network/google"
-  version = "~> 3.0"
+  version = "~> 6.0"
 
   # Give the network a name and project
   project_id   = google_project_service.compute.project
@@ -106,5 +106,5 @@ resource "google_compute_firewall" "allow-ping" {
 }
 
 output "ip" {
-  value = google_compute_instance.default.network_interface.0.access_config.0.nat_ip
+  value = google_compute_instance.default.network_interface[0].access_config[0].nat_ip
 }

@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.1](https://github.com/terraform-google-modules/terraform-google-network/compare/v6.0.0...v6.0.1) (2022-12-30)
+
+
+### Bug Fixes
+
+* align subnet modules ([#412](https://github.com/terraform-google-modules/terraform-google-network/issues/412)) ([36d1c55](https://github.com/terraform-google-modules/terraform-google-network/commit/36d1c553ba757f8b3d73632e32b81395949de66c))
+* fixes lint issues and generates metadata ([#411](https://github.com/terraform-google-modules/terraform-google-network/issues/411)) ([f29b20c](https://github.com/terraform-google-modules/terraform-google-network/commit/f29b20c1242602d5e6b2a99ece7800661053aa26))
+
+## [6.0.0](https://github.com/terraform-google-modules/terraform-google-network/compare/v5.2.0...v6.0.0) (2022-11-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* update minimum TPG version to 3.33 for firewall-rules #381
+* increase subnets module minimum TPG to 2.15 (#377)
+
+### Bug Fixes
+
+* increase subnets module minimum TPG to 2.15 ([#377](https://github.com/terraform-google-modules/terraform-google-network/issues/377)) ([3978cf1](https://github.com/terraform-google-modules/terraform-google-network/commit/3978cf1c5d834e158423ce525f6782e4550e1c23))
+* update minimum TPG version to 3.33 for firewall-rules [#381](https://github.com/terraform-google-modules/terraform-google-network/issues/381) ([0640fdd](https://github.com/terraform-google-modules/terraform-google-network/commit/0640fdd36173d196054135c997f0feba851fb4a3))
+
+## [5.2.0](https://github.com/terraform-google-modules/terraform-google-network/compare/v5.1.0...v5.2.0) (2022-07-28)
+
+
+### Features
+
+* add private service connect module ([#368](https://github.com/terraform-google-modules/terraform-google-network/issues/368)) ([4e90bee](https://github.com/terraform-google-modules/terraform-google-network/commit/4e90bee24bad734ec9a8c99f32902b5904f68796))
+
 ## [5.1.0](https://github.com/terraform-google-modules/terraform-google-network/compare/v5.0.0...v5.1.0) (2022-05-16)
 
 
